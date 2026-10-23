@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 
-const API_URL = 'http://localhost:5000/api/transactions'
+const API_URL = 'https://spendwise-api-kspm.onrender.com/api/transactions'
 
 const emptyForm = {
   type: 'expense',
